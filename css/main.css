@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #f7031b;
+  color: #dfe7f4;
+}
+
+.cabecalho {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #051b4c;
+}
+
+.cabecalho-logo {
+  height: 140px;
+}
+
+.cabecalho-menu-lista li,
+.redes-sociais-menu-lista li {
+  list-style: none;
+  display: inline;
+}
+
+.cabecalho-menu-item {
+  padding: 20px;
+  font-family: 'Righteous', cursiva;
+  color: #dfe7f4;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.cabecalho-menu-item:hover,
+.rodape-menu-item:hover {
+  color: blue;
+}
+
+.botao {
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+  margin-right: 10px;
+}
+
+.login-botao,
+.cadastrar-botao {
+  border: solid 2px blue;
+  border-radius: 20px;
+  color: blue;
+  background-color: #dfe7f4;
+  padding: 10px 20px;
+  font-family: 'Sarala', sans-serif;
+}
+
+.login-botao:hover,
+.cadastrar-botao:hover {
+  background-color: blue;
+  color: #dfe7f4;
+  transform: scale(1.2);
+}
+
+.rodape {
+  padding: 5px;
+  background-color: #051b4c;
+}
+
+.caixarodape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.rodape-menu-lista li {
+  list-style: none;
+  display: block;
+  padding-bottom: 3px;
+}
+
+.rodape-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #dfe7f4;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h3 {
+  font-family: 'Righteous', cursiva;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-bottom: 5px;
+  font-family: 'Sarala', sans-serif;
+  color: #dfe7f4;
+  font-size: 15px;
+}
+
+.redes-sociais-menu-item {
+  padding-left: 5px;
+}
+
+.desenvolvedor {
+  text-align: center;
+  padding: 10px;
+}
+
+.desenvolvedor a {
+  color: blue;
+  font-family: 'Righteous', cursiva;
+}
+
+.desenvolvedor a:hover {
+  color: #dfe7f4;
+}

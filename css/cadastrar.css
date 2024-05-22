@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+    font-family: 'Righteous', cursiva;
+    color: #dfe7f4;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f7031b;
+}
+
+.formulario {
+    width: 50%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: #051b4c;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px blue;
+    gap: 5px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.campo {
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    font-family: 'Sarala', sans-serif;
+    transition: all linear 190ms;
+    font-size: 15px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.campo::placeholder {
+    color: blue;
+}
+
+.campo:focus {
+    border-color: blue;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    color: #dfe7f4;
+    font-weight: 600;
+    border: none;
+    margin: 20px 0;
+    border-radius: 20px;
+    background-color: #f7031b;
+    cursor: pointer;
+    transition: all linear 190ms;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    background-color: #dfe7f4;
+    color: #f7031b;
+}
+
+p {
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f7031b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dfe7f4;
+}
