@@ -14,7 +14,7 @@ body {
 }
 
 .cabecalho {
-  padding: 5px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,6 +51,10 @@ body {
 }
 
 .login {
+  margin-right: 15px;
+}
+
+.cadastrar {
   margin-right: 10px;
 }
 
@@ -95,6 +99,14 @@ body {
   color: #dfe7f4;
   font-weight: 400;
   font-size: 15px;
+}
+
+h1 {
+  font-family: 'Righteous', cursiva;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
 }
 
 h3 {
